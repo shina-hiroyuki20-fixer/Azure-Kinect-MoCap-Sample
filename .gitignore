@@ -41,6 +41,7 @@ ExportedObj/
 *.suo
 *.tmp
 *.user
+*.userosscache
 *.userprefs
 *.pidb
 *.booproj
@@ -84,3 +85,8 @@ AssetBundles/
 
 # Addressable generation directory
 ServerData/
+
+# DLLs reqired by body tracking
+sample_unity_bodytracking/Assets/Plugins
+sample_unity_bodytracking/*.dll
+sample_unity_bodytracking/*onnx
